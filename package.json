@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon -r @ts-tools/node/r -r tsconfig-paths/register ./src/index.ts",
-    "build": "tsc",
+    "build": "yarn",
     "test": "export DATA_DIR=/tmp && jest",
     "postinstall": "wget https://ligolang.org/bin/linux/ligo && chmod +x ./ligo"
   },
