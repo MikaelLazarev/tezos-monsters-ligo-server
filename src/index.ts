@@ -13,11 +13,10 @@ import { errorLoggerMiddleware, loggerMiddleware } from './logger';
 require('./metrics');
 
 const bodyParser = require('body-parser');
-const escape = require('escape-html');
 const prometheus = require('express-prometheus-middleware');
 
 const app = express();
-const APP_PORT = 8080;
+const APP_PORT = process.env.PORT;
 
 const metrics = express();
 const METRICS_PORT = 8081;
