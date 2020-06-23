@@ -28,7 +28,7 @@ yarn-error.log*
 
 /src/config/google.json
 
-/src/tmp/*
+/src/tmp/*.ligo
 /temp/
 /node_modules/
 
