@@ -16,7 +16,7 @@ const bodyParser = require('body-parser');
 const prometheus = require('express-prometheus-middleware');
 
 const app = express();
-const APP_PORT = process.env.PORT;
+const APP_PORT = process.env.PORT || 8080;
 
 const metrics = express();
 const METRICS_PORT = 8081;
