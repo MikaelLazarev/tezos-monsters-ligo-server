@@ -23,7 +23,7 @@ export interface Result{
 
 
 export class LigoCompiler {
-  private ligoCmd = 'ligo' ;
+  private ligoCmd = './ligo' ;
   // process.env['LIGO_CMD'] || [
   //   'docker',
   //   'run',
